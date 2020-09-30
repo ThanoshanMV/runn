@@ -32,15 +32,15 @@ Make your own terminal aliases easily!
 
 ## Table of Contents
 
-* [About the Project](#about-the-project)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Example](#example)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
+- [About the Project](#about-the-project)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Example](#example)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## About the Project
 
@@ -52,7 +52,7 @@ Runn is a command line tool which help you to make your own terminal aliases eas
 
 You need to install node package manager to runn this!
 
-* npm
+- npm
 
 ```sh
 $ npm install npm@latest -g
@@ -80,33 +80,40 @@ $ runn cu "curl https://raw.githubusercontent.com/shalithasuranga/runn/master/bi
 $ runn cu
 ```
 
-## Example(Adding and using some Git commands)
+## Example: adding and using some Git commands
 
-1) After setting up, You may follow these steps. (*You can add your alias from anywhere in the directory)
-2) I am adding two git commands to aliases.
+1. After setting up, You may follow these steps. (You can add your alias from anywhere in the directory)
+2. I am adding two git commands to aliases.
 
-a) First lets add "git add ." to an alias called "gaa"
+a) First let's add "git add ." to an alias called "gaa"
+
 ```sh
 $ runn gaa "git add ."
 ```
-b) Now lets add our second alias for "git push origin master" as "gpom"
+
+b) Now let's add our second alias for "git push origin master" as "gpom"
+
 ```sh
 $ runn gpom "git push origin master"
 ```
 
-3) Now your new aliases are added. To use this you need to change your directory to a Github project directory.
+3. Now your new aliases are added. To use this you need to change your directory to a Github project directory.
 
 a) Using gaa alias
+
 ```sh
-$ runn gaa 
+$ runn gaa
 ```
-*You can see that your files are staged.
+
+You can see that your files are staged.
 
 b) Using gpom alias
+
 ```sh
-$ runn gpom 
+$ runn gpom
 ```
-*Your commits will push to origin master 
+
+Your commits will push to origin master.
 
 ## Roadmap
 
@@ -122,12 +129,12 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
 ### License
 
-Distributed under the MIT [License](https://github.com/99xt/runn/blob/master/LICENSE). 
+Distributed under the [MIT License](https://github.com/99xt/runn/blob/master/LICENSE).
 
 ### Contributors
+
 <a href="https://github.com/99xt/runn/graphs/contributors">
   <img src="https://contributors-img.firebaseapp.com/image?repo=99xt/runn" />
 </a>
